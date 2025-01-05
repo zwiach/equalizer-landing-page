@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Equalizer landing page</title>
+</head>
+
+<body class='font-ibm bg-white bg-main-mobile sm:bg-main-desktop bg-cover text-sl'>
+  <header
+    class="py-16 px-5 sm:px-20 min-h-[384px] sm:min-h-[594px] flex flex-col gap-16 justify-between mb-[110px] sm:mb-0">
+    <div class='w-[312px] mb-32'>
+      <img src='assets/logo.svg' alt="logo" />
+    </div>
+    <div class="absolute hidden sm:-top-10  sm:-right-12 xl:right-0 sm:block sm:h-[400px] sm:w-[266px]">
+      <img src='assets/bg-pattern-1.svg' alt="logo" />
+    </div>
+
+    <section>
+      <h1 class='font-bold text-xl sm:text-2xl xl:text-3xl sm:max-w-[416px] xl:max-w-[928px] mb-10'> We make your music
+        sound extraordinary
+      </h1>
+      <article class='text-sm sm:text-md xl:text-lg sm:max-w-[504px] xl:max-w-[736px]'>
+        A system audio equalizer specifically designed for Android and iOS. Freely tune the
+        way your music sounds with a professional grade parametric EQ & volume mixer. Control
+        bass, mids, treble, gain control, reverb, and more!
+      </article>
+    </section>
+
+  </header>
+
+  <main class='py-12 sm:py-[200px] px-0 sm:px-5 xl:px-[160px]'>
+    <div class='relative max-w-[1120px] mx-auto'>
+      <div class="h-[380px] sm:h-[600px] w-full  bg-slate sm:rounded-xl">
+        <img src='assets/bg-pattern-2.svg' alt="circles" class='absolute z-0 left-5 sm:left-0 xl:left-[34%]' />
+
+        <img src='assets/illustration-app.png' alt="mobile"
+          class="absolute -top-[110px] left-[50%] -translate-x-[50%] sm:-top-28 xl:-top-20  sm:left-[25%] h-[430px] sm:h-[556px] xl:h-[606px]" />
+
+      </div>
+      <div class='static sm:absolute sm:top-24 sm:right-[14%] xl:right-[5%]'>
+        <article
+          class="relative z-10 py-12 px-5  sm:px12  xl:p-14 bg-orange w-full sm:w-[356px] xl:w-[512px]  sm:rounded-xl">
+          <h2 class="font-bold text-xl mb-6">Premium EQ</h2>
+          <p class='text-lg mb-10'>
+            Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take
+            your listening experience to a whole new level and access all our incredible features!
+          </p>
+
+          <p class="mb-12 text-lg font-normal">
+            <span class="text-2xl font-bold">$4</span> / month
+          </p>
+
+          <button type="button"
+            class="group flex justify-center items-center h-16 bg-slate  w-full rounded-xl text-white gap-1 mb-4 text-md font-bold hover:bg-cyan hover:text-slate">
+            <svg class="fill-white group-hover:fill-slate" width="20" height="20">
+              <use xlink:href="/assets/my-sprite.svg#icon-apple"></use>
+            </svg>
+
+            <div>
+              iOS Download
+            </div>
+
+          </button>
+          <button type="button"
+            class="flex justify-center items-center h-16 bg-white w-full rounded-xl text-slate gap-1 text-md font-bold hover:bg-yelow ">
+            <div>
+              <img src="assets/icon-android.svg" alt="">
+            </div>
+            <div>
+              Android Download
+            </div>
+
+          </button>
+
+        </article>
+
+      </div>
+
+    </div>
+
+
+  </main>
+  <footer
+    class="px-5 md:px-10 xl:px-80 pt-16 pb-20 flex flex-col  w-full justify-between items-center sm:flex-row gap-8 ">
+    <div class='flex flex-col xl:flex-row w-full sm:w-[75%]  gap-8 xl:gap-32 '>
+      <div class='max-w-[144px]'>
+        <img src='assets/logo.svg' alt="logo" />
+      </div>
+      <div class='max-w-[560px]'>
+        <section>
+          All rights reserved © Equalizer 2021
+        </section>
+        <section class="w-full">
+          Have any problems? Contact us via social media or email us at
+        </section>
+        <section class='font-bold'>
+          equalizer@example.com
+        </section>
+      </div>
+
+    </div>
+    <div
+      class="flex flex-row w-full sm:w-[25%] gap-8 justify-start sm:justify-end md:self-end md:mb-6 xl:self-center xl:my-auto">
+      <svg class="fill-slate hover:fill-orange hover:cursor-pointer" width="20" height="20">
+        <use xlink:href="/assets/my-sprite.svg#icon-facebook"></use>
+      </svg>
+
+      <svg class="fill-slate hover:fill-orange hover:cursor-pointer" width="20" height="20">
+        <use xlink:href="/assets/my-sprite.svg#icon-instagram"></use>
+      </svg>
+      <svg class="fill-slate hover:fill-orange hover:cursor-pointer" width="20" height="20">
+        <use xlink:href="/assets/my-sprite.svg#icon-twitter"></use>
+      </svg>
+
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
