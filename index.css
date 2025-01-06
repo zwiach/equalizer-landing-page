@@ -2802,6 +2802,11 @@ video {
     padding-bottom: 200px;
   }
 
+  .sm\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .sm\:text-2xl{
     font-size: 4rem;
     line-height: 1;
@@ -2894,6 +2899,11 @@ video {
   .xl\:px-\[160px\]{
     padding-left: 160px;
     padding-right: 160px;
+  }
+
+  .xl\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .xl\:text-3xl{
